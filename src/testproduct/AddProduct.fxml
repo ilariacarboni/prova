@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.ColorAdjust?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="testproduct.AddProductController">
+   <children>
+      <TextField fx:id="cBarreTxt" layoutX="284.0" layoutY="81.0" />
+      <TextField fx:id="nameTxt" layoutX="283.0" layoutY="143.0" />
+      <TextField fx:id="qtaTxt" layoutX="284.0" layoutY="211.0" />
+      <Label fx:id="cBarreLbl" layoutX="102.0" layoutY="85.0" text="Codice Barre">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="nameLbl" layoutX="102.0" layoutY="147.0" text="Nome">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="qtaLbl" layoutX="102.0" layoutY="215.0" text="Quantità">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <Label fx:id="priceLbl" layoutX="105.0" layoutY="278.0" text="Prezzo">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <TextField fx:id="priceTxt" layoutX="284.0" layoutY="274.0" />
+      <Button fx:id="insertProductbtn" layoutX="334.0" layoutY="335.0" mnemonicParsing="false" onAction="#createProduct" text="Inserisci" />
+   </children>
+   <effect>
+      <ColorAdjust />
+   </effect>
+</AnchorPane>
