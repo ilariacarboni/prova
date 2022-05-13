@@ -63,6 +63,8 @@ public class AddProductController implements Initializable {
         
         p = new Product();
         p.insert (cBarre, nome, qta, prezzo);
+        //prova di commit
+        
     }
     
 }
